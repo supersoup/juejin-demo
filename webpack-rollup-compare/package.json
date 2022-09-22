@@ -1,0 +1,44 @@
+{
+  "name": "3-compare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wbuild": "webpack",
+    "rollup-build": "cross-env NODE_ENV=production rollup --config",
+    "build": "webpack; rollup --config",
+    "babel": "babel test.js --out-dir lib\n"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.19.0",
+    "@babel/preset-env": "^7.19.0",
+    "@babel/preset-react": "^7.18.6",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^14.0.1",
+    "@rollup/plugin-typescript": "^8.5.0",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "less-loader": "^11.0.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "rollup": "^2.79.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.3.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.3",
+    "typescript-loader": "^1.1.3",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.18.10",
+    "jquery": "^3.6.1",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
